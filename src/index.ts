@@ -9,7 +9,7 @@ app.get("/", (c) => {
   });
 });
 
-app.get("/hello", (c) => {
+app.get("/hello2", (c) => {
   return c.json({
     message: "Hello, Hono!",
   });
