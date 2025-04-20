@@ -1,5 +1,5 @@
 {
-  "name": "release-please-example",
+  "name": "semantic-release-example",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
