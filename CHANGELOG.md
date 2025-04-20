@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/philopian/semantic-release-example/compare/v1.1.1...v1.1.2) (2025-04-20)
+
+### Bug Fixes
+
+* update package name and version in package-lock.json; add conventional-changelog-conventionalcommits dependency ([d182c1b](https://github.com/philopian/semantic-release-example/commit/d182c1b37786b25b8f501a65be585a9807070234))
+
 ## [1.1.1](https://github.com/philopian/semantic-release-example/compare/v1.1.0...v1.1.1) (2025-04-20)
 
 
