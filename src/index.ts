@@ -15,6 +15,12 @@ app.get("/hello", (c) => {
   });
 });
 
+app.get("/hell2o", (c) => {
+  return c.json({
+    message: "Hello, Hono!",
+  });
+});
+
 serve(
   {
     fetch: app.fetch,
