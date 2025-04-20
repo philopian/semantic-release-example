@@ -9,6 +9,18 @@ app.get("/", (c) => {
   });
 });
 
+app.get("/hello", (c) => {
+  return c.json({
+    message: "Hello, Hono!",
+  });
+});
+
+app.get("/hell2o", (c) => {
+  return c.json({
+    message: "Hello, Hono!",
+  });
+});
+
 serve(
   {
     fetch: app.fetch,
