@@ -8,7 +8,14 @@ app.get("/", (c) => {
     message: "Hello, Hono!",
   });
 });
+
 app.get("/hello", (c) => {
+  return c.json({
+    message: "Hello, Hono!",
+  });
+});
+
+app.get("/hello2", (c) => {
   return c.json({
     message: "Hello, Hono!",
   });
